@@ -1,21 +1,21 @@
 /* Font & body */
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f2f6ff;
-    color: #333333;
+    background-color: aliceblue;
+    color: darkslategray;
     margin: 0;
     padding: 0;
 }
 
 /* Headings */
 h1, h2, h3 {
-    color: #1a237e;
+    color: darkblue;
     text-align: center;
 }
 
 /* Links */
 a {
-    color: #d32f2f;
+    color: red;
     text-decoration: none;
     font-weight: bold;
 }
@@ -28,9 +28,9 @@ a:hover {
 form {
     width: 320px;
     margin: 20px auto;
-    background-color: #ffffff;
+    background-color: white;
     padding: 20px;
-    border: 2px solid #3f51b5;
+    border: 2px solid royalblue;
     border-radius: 8px;
 }
 
@@ -48,7 +48,7 @@ input[type="radio"] {
 
 input[type="submit"],
 input[type="button"] {
-    background-color: #3f51b5;
+    background-color: royalblue;
     color: white;
     padding: 8px 15px;
     border: none;
@@ -57,13 +57,13 @@ input[type="button"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #283593;
+    background-color: navy;
 }
 
 /* Lists */
 ul {
     list-style-type: square;
-    color: #2e7d32;
+    color: green;
     margin-left: 40px;
 }
 
@@ -75,11 +75,11 @@ table {
 }
 
 table, th, td {
-    border: 2px solid #000;
+    border: 2px solid black;
 }
 
 th {
-    background-color: #7986cb;
+    background-color: cornflowerblue;
     color: white;
     padding: 10px;
 }
@@ -91,7 +91,7 @@ td {
 
 /* Footer (optional) */
 footer {
-    background-color: #1a237e;
+    background-color: darkblue;
     color: white;
     text-align: center;
     padding: 10px;
@@ -100,13 +100,12 @@ footer {
 /* Center left-side action buttons on all pages */
 .center-left {
     width: 100%;
-    text-align: center;   /* moves content to center horizontally */
-    margin-top: 40px;     /* space from top */
+    text-align: center;
+    margin-top: 40px;
 }
 
 .center-left a {
-    display: block;       /* each link on new line */
+    display: block;
     margin: 10px 0;
 }
-
 
