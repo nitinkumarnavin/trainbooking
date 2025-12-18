@@ -96,3 +96,17 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+/* Center left-side action buttons on all pages */
+.center-left {
+    width: 100%;
+    text-align: center;   /* moves content to center horizontally */
+    margin-top: 40px;     /* space from top */
+}
+
+.center-left a {
+    display: block;       /* each link on new line */
+    margin: 10px 0;
+}
+
+
