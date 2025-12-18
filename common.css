@@ -1,19 +1,16 @@
-/* Body */
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: blue;
+    background-color: aliceblue;
     color: black;
     margin: 0;
     padding: 0;
 }
 
-/* Headings (IRCTC dark blue) */
 h1, h2, h3 {
     color: navy;
     text-align: center;
 }
 
-/* Navigation & Links (IRCTC red) */
 a {
     color: firebrick;
     text-decoration: none;
@@ -24,17 +21,15 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Forms (white card look) */
 form {
     width: 320px;
     margin: 20px auto;
-    background-color: white;
+    background-color: honeydew;
     padding: 20px;
     border: 2px solid navy;
     border-radius: 6px;
 }
 
-/* Input fields */
 input[type="text"],
 input[type="number"],
 input[type="password"],
@@ -46,12 +41,10 @@ select {
     border: 1px solid gray;
 }
 
-/* Radio buttons */
 input[type="radio"] {
     margin-left: 5px;
 }
 
-/* Buttons (IRCTC blue) */
 input[type="submit"],
 input[type="button"],
 button {
@@ -68,14 +61,12 @@ button:hover {
     background-color: navy;
 }
 
-/* Lists */
 ul {
     list-style-type: square;
     color: darkgreen;
     margin-left: 40px;
 }
 
-/* Tables (IRCTC style) */
 table {
     border-collapse: collapse;
     width: 70%;
@@ -97,15 +88,6 @@ td {
     text-align: center;
 }
 
-/* Footer */
-footer {
-    background-color: navy;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
-
-/* Centered action buttons */
 .center-left {
     width: 100%;
     text-align: center;
@@ -115,5 +97,12 @@ footer {
 .center-left a {
     display: block;
     margin: 10px 0;
+}
+
+footer {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
 
